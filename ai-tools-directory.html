@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio de Herramientas de Inteligencia Artificial | Páginas de IA</title>
+    <meta name="description" content="El mejor directorio de herramientas de inteligencia artificial. Encuentra las mejores páginas y apps de IA para crear texto, generar imágenes, automatizar tareas y más.">
+    <meta name="keywords" content="inteligencia artificial, IA, herramientas AI, páginas IA, ChatGPT, Midjourney, generador imágenes, aiselfi.es, queia.es">
+    <meta name="author" content="@kraayenjon">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:title" content="Directorio de Herramientas de Inteligencia Artificial">
+    <meta property="og:description" content="El mejor directorio de herramientas de inteligencia artificial. Encuentra las mejores páginas y apps de IA.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="">
+    <meta property="twitter:title" content="Directorio de Herramientas de Inteligencia Artificial">
+    <meta property="twitter:description" content="El mejor directorio de herramientas de inteligencia artificial. Encuentra las mejores páginas y apps de IA.">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Directorio de Herramientas de Inteligencia Artificial",
+        "description": "El mejor directorio de herramientas de inteligencia artificial curado por @kraayenjon",
+        "url": "",
+        "author": {
+            "@type": "Person",
+            "name": "@kraayenjon"
+        }
+    }
+    </script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #e2e8f0;
+            background: linear-gradient(135deg, #1a1a1a 0%, #2d2d2d 25%, #1e1e1e 50%, #0f0f0f 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            text-align: center;
+            color: #f8fafc;
+            margin-bottom: 40px;
+            padding: 40px 20px;
+        }
+        
+        .header h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
+            background: linear-gradient(45deg, #60a5fa, #a78bfa, #f472b6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #cbd5e1;
+        }
+        
+        .curator {
+            color: #60a5fa;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        
+        .sponsor {
+            background: rgba(15,15,15,0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-bottom: 40px;
+            text-align: center;
+            border: 1px solid rgba(96,165,250,0.3);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+        
+        .sponsor h2 {
+            color: #f8fafc;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .sponsor-link {
+            display: inline-block;
+            color: #60a5fa;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            transition: all 0.3s ease;
+            text-shadow: 0 0 10px rgba(96,165,250,0.3);
+        }
+        
+        .sponsor-link:hover {
+            color: #93c5fd;
+            transform: scale(1.05);
+            text-shadow: 0 0 20px rgba(96,165,250,0.6);
+        }
+        
+        .sponsor p {
+            color: #cbd5e1;
+        }
+        
+        .tools-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-bottom: 40px;
+        }
+        
+        .tool-card {
+            background: linear-gradient(145deg, #1e293b, #334155);
+            padding: 25px;
+            border-radius: 20px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.4), 0 0 0 1px rgba(71,85,105,0.3);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(71,85,105,0.3);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .tool-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #60a5fa, #a78bfa, #f472b6);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+        
+        .tool-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6), 0 0 0 1px rgba(96,165,250,0.5);
+            background: linear-gradient(145deg, #1e293b, #334155, #1e293b);
+        }
+        
+        .tool-card:hover::before {
+            opacity: 1;
+        }
+        
+        .tool-name {
+            font-size: 1.3rem;
+            font-weight: bold;
+            color: #60a5fa;
+            margin-bottom: 10px;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        .tool-name:hover {
+            color: #93c5fd;
+            text-shadow: 0 0 10px rgba(96,165,250,0.3);
+        }
+        
+        .tool-description {
+            color: #cbd5e1;
+            line-height: 1.6;
+        }
+        
+        .footer {
+            background: rgba(15,15,15,0.8);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            text-align: center;
+            color: #f8fafc;
+            margin-top: 40px;
+            border: 1px solid rgba(96,165,250,0.3);
+            box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+        }
+        
+        .footer h3 {
+            margin-bottom: 15px;
+            color: #60a5fa;
+            text-shadow: 0 0 10px rgba(96,165,250,0.3);
+        }
+        
+        .footer-link {
+            color: #60a5fa;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+        }
+        
+        .footer-link:hover {
+            color: #93c5fd;
+            text-shadow: 0 0 10px rgba(96,165,250,0.5);
+        }
+        
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .tools-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .tool-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Páginas de Inteligencia Artificial (IA)</h1>
+            <p>Este repositorio recopila las mejores páginas y apps de inteligencia artificial. En este directorio encontrarás herramientas útiles para crear texto, generar imágenes, automatizar tareas y mucho más. Nuestro objetivo es facilitar el acceso a las mejores páginas de IA en un solo lugar, organizado y actualizado constantemente.</p>
+            <p class="curator">El directorio con las mejores páginas de Inteligencia Artificial es curado por <strong>@kraayenjon</strong></p>
+        </header>
+
+        <section class="sponsor">
+            <h2>SPONSOR</h2>
+            <a href="https://aiselfi.es" class="sponsor-link" target="_blank" rel="noopener">aiselfi.es</a>
+            <p>El directorio de IA es patrocinado por aiselfi.es - una app que convierte tus selfies en fotos profesionales.</p>
+        </section>
+
+        <main>
+            <h2 style="color: #f8fafc; text-align: center; margin-bottom: 30px; font-size: 2rem; background: linear-gradient(45deg, #60a5fa, #a78bfa); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Listado de Herramientas IA</h2>
+            
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3 class="tool-name">aiselfi.es</h3>
+                    <p class="tool-description">Convierte selfies en fotos profesionales.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">HeyGen</h3>
+                    <p class="tool-description">Crea videos personalizados con IA usando avatares realistas.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Clarity</h3>
+                    <p class="tool-description">Mejora imágenes with IA, aumentando su resolución y añadiendo detalles ajustables según tus preferencias.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Leonardo</h3>
+                    <p class="tool-description">Generá imágenes con IA de calidad profesional para arte, diseño y videojuegos.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Midjourney</h3>
+                    <p class="tool-description">Explorá la creatividad visual con un generador de imágenes basado en texto.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Stable Diffusion</h3>
+                    <p class="tool-description">Crea imágenes realistas o artísticas con modelos de difusión open source.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">DALL-E</h3>
+                    <p class="tool-description">Generá imágenes únicas desde descripciones con la tecnología de OpenAI.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Runway</h3>
+                    <p class="tool-description">Plataforma creativa con IA para editar videos, imágenes y más.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Mixo</h3>
+                    <p class="tool-description">Crea landing pages con IA a partir de una simple idea de negocio.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Visily</h3>
+                    <p class="tool-description">Diseñá interfaces rápidamente con ayuda de IA, sin necesidad de experiencia previa.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Vizologi</h3>
+                    <p class="tool-description">Explorá modelos de negocio y estrategias con la ayuda de IA.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Trueface</h3>
+                    <p class="tool-description">Reconocimiento facial y análisis visual con IA para seguridad y negocios.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Skript</h3>
+                    <p class="tool-description">Automatizá escritura de contenido con IA para blogs, redes y más.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Stockimg</h3>
+                    <p class="tool-description">Generá imágenes tipo stock usando inteligencia artificial.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Hotpot</h3>
+                    <p class="tool-description">Editá imágenes, generá gráficos y arte con IA.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Canva</h3>
+                    <p class="tool-description">Diseñá todo tipo de contenido visual con herramientas potentes e intuitivas.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">ChatGPT</h3>
+                    <p class="tool-description">Asistente conversacional de OpenAI para ayudarte con tareas, ideas y más.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Jasper</h3>
+                    <p class="tool-description">Crea contenido de marketing con IA que convierte mejor.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Copy.ai</h3>
+                    <p class="tool-description">Generador de textos para marketing, blogs y redes sociales.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Rytr</h3>
+                    <p class="tool-description">Escribí contenido creativo automáticamente con IA.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Wordtune</h3>
+                    <p class="tool-description">Mejorá y reformulá tus textos con ayuda de IA.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Anyword</h3>
+                    <p class="tool-description">Optimización de textos publicitarios con IA para mejorar conversiones.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">DeepL</h3>
+                    <p class="tool-description">Traducción automática de alta calidad impulsada por IA.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Grammarly</h3>
+                    <p class="tool-description">Corrige y mejora tu escritura con IA en tiempo real.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Pictory</h3>
+                    <p class="tool-description">Convierte textos o artículos en videos automáticamente.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Tools Para Creators</h3>
+                    <p class="tool-description">Todo lo que necesitas para optimizar tu perfil de Creador.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Synthesia</h3>
+                    <p class="tool-description">Generá videos con avatares parlantes usando solo texto.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Descript</h3>
+                    <p class="tool-description">Editá video y audio como si fuera un documento de texto.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Krisp</h3>
+                    <p class="tool-description">Cancelación de ruido, transcripciones y notas sin bots para reuniones.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Eleven Labs</h3>
+                    <p class="tool-description">Generación de voz ultra realista en múltiples idiomas con IA.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Humata AI</h3>
+                    <p class="tool-description">Lee, resume y responde sobre documentos PDF con IA.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Sora</h3>
+                    <p class="tool-description">Generá videos e imágenes realistas a partir de texto con OpenAI.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Clips AI</h3>
+                    <p class="tool-description">Convierte tus videos largos en clips optimizados para redes.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Opus</h3>
+                    <p class="tool-description">Transformá contenido largo en clips virales automáticamente.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Character.ai</h3>
+                    <p class="tool-description">Chateá con personajes creados con IA que simulan conversaciones naturales.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Superhuman</h3>
+                    <p class="tool-description">Cliente de correo con IA para escribir y responder más rápido.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">ConvertKit</h3>
+                    <p class="tool-description">Automatización de emails y marketing para creadores.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Taplio</h3>
+                    <p class="tool-description">Crecé en LinkedIn con ayuda de IA para contenido y analítica.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Postwise</h3>
+                    <p class="tool-description">Crea y programa contenido viral con IA para Twitter y LinkedIn.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Durable</h3>
+                    <p class="tool-description">Crea sitios web completos con IA en menos de un minuto.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Looka</h3>
+                    <p class="tool-description">Diseñá tu logo y branding con IA en minutos.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Otter.ai</h3>
+                    <p class="tool-description">Transcribe reuniones y entrevistas automáticamente con IA.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Decktopus</h3>
+                    <p class="tool-description">Crea presentaciones automáticas con contenido sugerido por IA.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Suno</h3>
+                    <p class="tool-description">Crea canciones originales con IA a partir de texto.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">Murf.ai</h3>
+                    <p class="tool-description">Generá voces realistas para videos, podcasts y presentaciones.</p>
+                </div>
+                
+                <div class="tool-card">
+                    <h3 class="tool-name">AiCarousels</h3>
+                    <p class="tool-description">Diseña carrusels para redes con texto, estructura y estilo generado por IA.</p>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+            <h3>Accede al listado completo</h3>
+            <p>Accede al listado completo de páginas de inteligencia artificial en <a href="https://queia.es" class="footer-link" target="_blank" rel="noopener">QueIA.es</a></p>
+            
+            <h3 style="margin-top: 30px;">Colaboración</h3>
+            <p>Si quieres enviar tu herramienta IA puedes hacerlo en <a href="https://queia.es" class="footer-link" target="_blank" rel="noopener">QueIA.es</a></p>
+        </footer>
+    </div>
+</body>
+</html>
